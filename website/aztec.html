@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Aztec Diamond</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (Win95; I) [Netscape]">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<CENTER><P><FONT SIZE=+4>Aztec Diamond</FONT> 
+<HR><APPLET 
+    code=Tiling.class
+    id=Tiling
+    width=513
+    height=365><PARAM name=tiling value=2><PARAM name=order value=16><PARAM name=passdepth value=8></APPLET>
+<HR></P></CENTER>
+
+<P>Above, a random order 16 Aztec Diamond is being created using the <A HREF="propp-wilson.html">Propp-Wilson
+Algorithm</A>. What made the Aztec Diamond so popular was the circular
+arctic boundary that appeared in random samples. This boundary seperates
+the brickwork in the corners of the diamond from the variable center. Notice
+how in the tilings above, each started with perfect brickwork covering
+the region in two opposite phases. In this case, the four phases are characterized
+by their orientation (horizontal or vertical) and whether their top-left
+face covered a black or white face of the region. However, as rotations
+occur, brickwork forms in each corner. Why? Consider what happens if this
+were not true. If two vertical tiles were placed at the top of the diamond,
+on each side would be a square with only one neighbor. As a result, a tile
+is forced there. Extending this, it can be seen that this single change
+forces all the tiles along the top boundaries, creating in effect and Aztec
+Diamond of a smaller order. After further investigation, the arctic boundary
+was proved to be circular for arbitarily large regions. This insighted
+searches for the other regions with similar properties. One of these is
+the hexagon, the next example.</P>
+
+<P>The other thing that makes Aztec Diamonds popular is the fact that the
+number of tilings equals exactly 2 ^ ( n(n+1)/2 ), where n represents the
+order of the diamond. Curiously the exponent equals the number of faces
+in one corner (or tiles in one half) of the region. The reason why this
+is so unusual is the fact that most regions, even common checkerboard shaped
+regions, have unusual numbers of tilings with seemingly random prime factors.
+Regions with &quot;nice&quot; numbers of possible tilings like this are
+also being searched for today.</P>
+
+<P>Note: by clicking the applet and scrolling the wheel on your mouse you can adjust the pace of randomization.</P>
+
+<P>
+<HR WIDTH="100%">Send your questions and comments to: <A HREF="mailto:wooly@alum.mit.edu">wooly@alum.mit.edu<BR>
+</A>Copyright &copy; 1997-2011 Jason Woolever<BR>
+Copyright &copy; 1997 Massachusetts Institute of Technology<BR>
+Last modified: 4/16/11</P>
+
+</BODY>
+</HTML>
