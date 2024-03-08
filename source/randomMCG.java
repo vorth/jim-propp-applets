@@ -1,6 +1,6 @@
-package randomX;
+// package randomX;
 
-import randomX.*;
+// import randomX.*;
 
 /**
     Implementation of a <b>randomX</b>-compliant class using the
@@ -13,7 +13,7 @@ import randomX.*;
 
     <p>
     <center>
-        <em>I<sub>j+1</sub></em> = (<em>I<sub>j</sub></em> × 16807) & 0x7FFFFFFF
+        <em>I<sub>j+1</sub></em> = (<em>I<sub>j</sub></em>  16807) & 0x7FFFFFFF
     </center>
 
     <p>

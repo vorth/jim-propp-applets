@@ -1,5 +1,10 @@
-import java.applet.*;
-import java.awt.*;
+// import java.applet.*;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Color;
+import java.awt.Image;
+import java.awt.Event;
 import java.util.*;
 
 public class Tiling extends Applet implements Runnable
@@ -290,14 +295,7 @@ public class Tiling extends Applet implements Runnable
 
 		if (!initialized)
 		{
-			try
-			{
 				prepare();
-			}
-			catch (InterruptedException e)
-			{
-				stop();
-			}
 		}
 		starttime = System.currentTimeMillis();
 		while (proceed)

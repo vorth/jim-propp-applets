@@ -3,8 +3,11 @@
  * Tile
  *
  */
-import java.applet.*;
-import java.awt.*;	   
+// import java.applet.*;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Color;
 import java.util.Vector;
 
 public class Tile extends Applet 
